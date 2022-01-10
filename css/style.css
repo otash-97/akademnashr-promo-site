@@ -1,0 +1,68 @@
+
+.links{
+  color: #000000;
+  letter-spacing: 1px;
+  Font family: Roboto;
+  font-style: style: Medium;
+  Font-size: 13px;
+  text-decoration: none;
+}
+.item{
+  list-style: none;
+}
+.landing-page{
+  background-color: rgba(37, 36, 32, 1);
+}
+.title{
+  Font-family: Roboto Condensed;
+  Font-style: Bold;
+  Font-size: 40px;
+  color: #ffffff;
+}
+.subtitle{
+  Font-family: Roboto;
+  Font-style: Regular;
+  Font-size: 16px;
+  color: #ffffff;
+}
+.btn{
+  Font-family: Roboto;
+  Font-style: Bold;
+  Font-size: 13px;
+  color: #ffffff;
+  Letter-spacing: 0.5px;
+  text-decoration: none;
+}
+.page{
+  background-color: #fff;
+}
+.subject{
+  Font-family: Roboto Condensed;
+  Font-style: Bold;
+  Font-size: 72px;
+  color: #000000;
+  letter-spacing: 0.5px;
+}
+.slogan{
+  Font-family: Roboto Condensed;
+  Font-style: Bold;
+  Font-size: 24px;
+  letter-spacing: 0,5px;
+  color: #000000  ;
+}
+.text{
+  Font-family: Roboto;
+  Font-style: Regular;
+  Font-size: 16px;
+  color: #000000;
+}
+.main{
+  background-color: #252420;
+}
+.link{
+  Font-family: Roboto;
+  Font-style: Regular;
+  Font-size: 16px;
+  color: #252420;
+  text-decoration: none;
+}
