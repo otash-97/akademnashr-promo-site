@@ -48,6 +48,10 @@ header{
   letter-spacing: 0.5px;
   color: #fff;
 }
+.info-content-aside{
+  width: 340px;
+  height: 225px;
+}
 .info-heading{
   font-family: Roboto Condensed;
   font-style: Bold;
