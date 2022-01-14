@@ -27,7 +27,9 @@ header{
 .header-logo:active{
   opacity: 0.6;
 }
-
+.header-logo-img{
+  display: block;
+}
 .header-nav{
   display: flex;
   align-items: center;
@@ -259,6 +261,7 @@ footer{
   margin-right: 16px;
 }
 .footer-icons-list a {
+  display: block;
   color: #252420;
   transition: color 0.4s ease;
 }
@@ -269,7 +272,9 @@ footer{
 .footer-icons-list a:active{
   opacity: 0.6;
 }
-
+.footer-icons-item svg{
+  display: block;
+}
 .footer-hr{
   margin: 0;
   padding: 0;
