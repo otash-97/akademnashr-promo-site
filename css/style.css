@@ -53,7 +53,7 @@ header{
   line-height: 15px;
   letter-spacing: 1px;
   font-family: Roboto;
-  font-style: Medium;
+  font-weight: 500;
   color: #000;
   transition: color 0.4s ease;
 }
@@ -76,7 +76,7 @@ header{
   line-height: 15px;
   letter-spacing: 1px;
   font-family: Roboto;
-  font-style: Medium;
+  font-weight: 700;
   color: #fff;
   background-color: #ff7500;
   transition: opacity 0.4s ease;
