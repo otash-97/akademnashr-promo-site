@@ -1,9 +1,9 @@
 body{
   font-family: "Roboto", "Arial" sans-serif;;
- font-size: 16px;
- line-height: 1.5;
- letter-spacing: 0.5px;
- color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #fff;
 }
 
 
@@ -15,6 +15,15 @@ header{
   justify-content: space-between;
   background-color: rgba(255, 255, 255, 1);
 }
+
+.header-logo:hover{
+  opacity: 0.8;
+}
+
+.header-logo:active{
+  opacity: 0.6;
+}
+
 .header-nav{
   display: flex;
   align-items: center;
@@ -24,6 +33,7 @@ header{
   display: flex;
   list-style: none;
 }
+
 .nav-list a {
   text-transform: uppercase;
   text-decoration: none;
@@ -33,7 +43,18 @@ header{
   font-family: Roboto;
   font-style: Medium;
   color: #000;
+  transition: color 0.4s ease;
 }
+.nav-list a:hover{
+  color: #ff7500;
+}
+.nav-list a:active{
+  opacity: 0.6;
+}
+
+
+/* .header-link */
+
 .header-link{
   text-decoration: none;
   font-size: 13px;
@@ -43,7 +64,17 @@ header{
   font-style: Medium;
   color: #fff;
   background-color: #ff7500;
+  transition: opacity 0.4s ease;
 }
+.header-link:hover{
+  opacity: 0.8;
+}
+.header-link:active{
+  opacity: 0.6;
+}
+
+/* .hr-division */
+
 .hr-division{
   width: 80px;
   height: 3px;
@@ -73,6 +104,7 @@ header{
 
 
 /* section .info */
+
 .info-content{
   display: flex;
 }
@@ -142,6 +174,18 @@ footer{
   display: flex;
   list-style: none;
 }
+.footer-icons-list a {
+  color: #252420;
+  transition: color 0.4s ease;
+}
+
+.footer-icons-list a:hover{
+  color: #ff7500;
+}
+.footer-icons-list a:active{
+  opacity: 0.6;
+}
+
 .footer-hr{
   width: 1100px;
   height: 2px;
@@ -159,4 +203,11 @@ footer{
   font-size: 16px;
   line-height: 19px;
   color: #252420;
+  transition: color 0.4s ease;
+}
+.footer-bootom-list a:hover{
+  color: #ff7500;
+}
+.footer-bootom-list a:active{
+  opacity: 0.6;
 }
