@@ -1,3 +1,7 @@
+*:focus{
+  outline: #ff7500 dotted 2px;
+  offset: 3px;
+}
 body{
   font-family: "Roboto", "Arial" sans-serif;;
   font-size: 16px;
@@ -5,9 +9,12 @@ body{
   letter-spacing: 0.5px;
   color: #fff;
 }
-*:focus{
-  outline: #ff7500 dotted 2px;
-  offset: 3px;
+.container{
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 /* header */
@@ -18,6 +25,12 @@ header{
   align-items: center;
   justify-content: space-between;
   background-color: rgba(255, 255, 255, 1);
+}
+.header-container{
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-logo:hover{
@@ -109,7 +122,6 @@ header{
 /* .landing-page */
 
 #landing-page{
-  /* margin-top: 80px; */
   background-color: #252420;
 }
 .landing-page-section{
@@ -134,18 +146,21 @@ header{
   margin: 0;
   margin-bottom: 32px;
 }
+.landing-page-img{
+  position: relative;
+  top: 40px;
+}
 .landing-page-image{
   border-radius: 8px;
+  box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
 }
 
 
 /* section .info */
 #info{
-  /* padding: 197px 0 223px; */
+  padding: 197px 0 0 0;
 }
-.info{
-  margin-top: 197px;
-}
+
 .info-content{
   display: flex;
 }
@@ -162,7 +177,7 @@ header{
 .info-content-aside{
   width: 340px;
   margin-right: 40px;
-  margin-bottom: 223px;
+  margin-bottom: 210px;
 }
 .info-content-aside:last-child{
   margin-right: 0;
@@ -198,11 +213,17 @@ header{
 
 
 #promoution{
-  padding: 64px;
+  padding-top: 110px;
+  padding-bottom: 160px;
+
+}
+.promoution-container{
+  padding:0 64px;
   border-radius: 12px;
   background-color: #252420;
 }
 .promoution-content{
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -232,6 +253,10 @@ header{
 }
 .promoution-text-orange{
   color: #ff7500;
+}
+.promoution-img{
+  position: relative;
+  bottom: 64px;
 }
 .promoution-image{
   border-radius: 12px;
@@ -279,7 +304,6 @@ footer{
   margin: 0;
   padding: 0;
   border: 0;
-  width: 1100px;
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
 }
@@ -309,4 +333,10 @@ footer{
 }
 .footer-bootom-list a:active{
   opacity: 0.6;
+}
+.footer-bootom-list li{
+  padding-bottom: 16px;
+}
+.footer-bootom-list li:last-child{
+  padding-bottom: 0px;
 }
