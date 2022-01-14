@@ -112,6 +112,9 @@ header{
   letter-spacing: 0.5px;
   color: #fff;
 }
+.landing-page-image{
+  border-radius: 8px;
+}
 
 
 /* section .info */
@@ -159,7 +162,7 @@ header{
 
 #promoution{
   padding: 64px;
-
+  border-radius: 12px;
   background-color: #252420;
 }
 .promoution-content{
@@ -178,7 +181,9 @@ header{
 .promoution-text-orange{
   color: #ff7500;
 }
-
+.promoution-image{
+  border-radius: 12px;
+}
 /* footer */
 
 
